@@ -1,0 +1,31 @@
+h1{
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+.resh-container {
+    border: 2px solid black;
+    width: 95%;
+    height: 1500px;
+    margin: 0 auto;
+}
+
+.menu-nav{
+    border: 2px solid blue;
+    /* flex : 한줄에 하나만
+    inline-flex : 크기만큼만, 한줄에 여러개 먹음 */
+    display: flex;
+}
+
+.menu-item{
+    border: 2px solid red;
+    flex: 1;
+    width: 30%;
+    height: 50px;
+    margin: 10px 3%;
+    /* text 정렬 시키려면 flex 한번 더 */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
