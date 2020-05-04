@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>RECIPE-SHARE</title>
+
+    <link rel="stylesheet" type="text/css" href="./mypage.css" />
+</head>
+
+<body>
+    <h1>RECIPE-SHARE</h1>
+    <div class="resh-container">
+
+        <div class="search-box">
+            <div class="search-contents">
+                어떤 레시피를 찾고 계신가요? : 
+            </div>
+            <div class="search-btn">
+                검색
+            </div>
+        </div>
+
+        <div class="menu-nav">
+            <div class="menu-item">
+                레시피 둘러보기
+            </div>
+            <div class="menu-item">
+                레시피 등록하기
+            </div>
+            <div class="menu-item">
+                my 레시피
+            </div>
+            <div class="menu-item">
+                로그인/로그아웃
+            </div>
+        </div>
+
+        <div class="add-box">
+            <form method="POST">
+                <label for="input_title">제목</label><br>
+                <input type="text" id="input_title"><br><br>
+
+                <label for="input_sort">종류</label><br>
+                <input type="radio" name="input_sort">한식
+                <input type="radio" name="input_sort">중식
+                <input type="radio" name="input_sort">일식
+                <input type="radio" name="input_sort">디저트<br><br>
+                
+                <label for="input_ingredient">재료</label><br>
+                <input type="text" id="input_ingredient"><br><br>
+
+                <label for="input_contents">레시피</label><br>
+                <input type="text" id="input_contents"><br><br>
+
+                <input type="submit" value="등록">
+            </form>
+        </div>
+</body>
+
+</html>
