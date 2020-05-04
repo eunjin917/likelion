@@ -71,6 +71,7 @@ a{
 
 .into-heart, .into-star, .into-myadd{
     border: 2px solid #333;
+    background-color: white;
     border-radius: 10%;
     width: 10%;
     text-align: center;
@@ -87,14 +88,17 @@ a{
 
 .recipe-item{
     border: 2px solid #333;
+    background-color: white;
     flex: 1 1 20%;
     width: 200px;
     height: 240px;
     margin: 10px 10px;
+    position: relative;
 }
 
 .recipe-img{
-    /* border: 2px solid plum; */
+    /* border: 2px solid skyblue; */
+    width: 100%;
     height: 200px;
 }
 
@@ -102,4 +106,36 @@ a{
     /* border: 2px solid skyblue; */
     margin-top: 5px;
     text-align: center;
+}
+
+.heart-icon{
+    background-color: crimson;
+    color: snow;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+
+    position: absolute;
+    top: 5px;
+    left: 5px;
+}
+
+.star-icon{
+    background-color: gold;
+    color: snow;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+
+    position: absolute;
+    top: 5px;
+    right: 5px;
 }

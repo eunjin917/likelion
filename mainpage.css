@@ -91,6 +91,7 @@ a{
     width: 200px;
     height: 240px;
     margin: 10px 10px;
+    position: relative;
 }
 
 .recipe-img{
@@ -103,6 +104,38 @@ a{
     /* border: 2px solid skyblue; */
     margin-top: 5px;
     text-align: center;
+}
+
+.heart-icon{
+    background-color: crimson;
+    color: snow;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+
+    position: absolute;
+    top: 5px;
+    left: 5px;
+}
+
+.star-icon{
+    background-color: gold;
+    color: snow;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+
+    position: absolute;
+    top: 5px;
+    right: 5px;
 }
 
 .page-btn-box{
